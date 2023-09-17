@@ -19,7 +19,7 @@ namespace Erste
 
         private void label4_Click(object sender, EventArgs e)
         {
-
+            return;
         }
 
         private void FormWindows_Load(object sender, EventArgs e)
