@@ -99,5 +99,17 @@ namespace Erste
             
             
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Student selStudent = ((Student)comboBox3.SelectedItem);
+            MessageBox.Show(selStudent.Id.ToString()+" "+selStudent.Name.ToString());
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CalendarForm calendar = new CalendarForm();
+            calendar.Show();
+        }
     }
 }
